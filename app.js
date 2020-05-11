@@ -52,7 +52,7 @@ for (const visitor of visitors) {
 
 const length = getLength('Hello World');
 
-length % 2 == 0
+length % 2 === 0
   ? console.log('The world is nice and even!')
   : console.log('The world is an odd place!');
 
